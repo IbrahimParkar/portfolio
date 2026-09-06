@@ -1,0 +1,258 @@
+\documentclass{article}
+\usepackage[left=0.5in,right=0.5in,top=1in,bottom=0.5in,headheight=0pt,headsep=0pt]{geometry}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+
+% Remove xcolor and set the color settings directly in \hypersetup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,       % Color for internal links (sections, pages)
+    urlcolor=blue,        % Color for external links
+    citecolor=black,       % Color for citations
+    filecolor=black,       % Color for file links
+    pdftitle={Ibrahim Parkar CV Full}, % Optional metadata
+    pdfauthor={Ibrahim Parkar}  % Optional metadata
+}
+
+\fancyhf{} % Clear header and footer
+\renewcommand{\headrulewidth}{0pt} % Remove header line
+\pagestyle{fancy}
+\rfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge Ibrahim Parkar} \\[4pt]
+    \begin{tabular}{c c c}
+        \textbf{Machine Learning Engineer} & Mumbai, Maharashtra, India & Phone: 8657377590 \\
+        Email: \href{mailto:ibrahimparkar888@gmail.com}{ibrahimparkar888@gmail.com} & 
+        LinkedIn: \href{https://www.linkedin.com/in/ibrahim-parkar-8004b1212/}{/ibrahim-parkar-8004b1212} & 
+        GitHub: \href{https://github.com/IbrahimParkar}{/IbrahimParkar}
+    \end{tabular}
+\end{center}
+
+\section*{Professional Summary}
+Machine Learning engineer with 2+ years of hands-on experience in building ML/NLP solutions, including LLM-based chatbots, fraud detection models, and other ML projects. Skilled in ML, Python, SQL, scikit-learn, TensorFlow, and AWS. Adept at translating business problems into actionable machine learning solutions.
+
+\begin{multicols}{2}
+\section*{Experience}
+\begin{itemize}[leftmargin=*]
+\item \textbf{Machine Learning Engineer (Full Time)}\\
+    JForce Solutions, Mumbai, India\\
+    July 2025 – Present\\
+    Built production-ready AI applications for the education domain using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), NLP, and Python. Led the design and development of scalable systems for academic content generation, intelligent student support, transcript processing, and workflow automation.
+    % \begin{itemize}
+    % \item \textbf{RAG-based Academic Q\&A System (PMQ – Post My Query):} Built a retrieval-augmented generation system enabling students to ask course-specific academic questions, with grounded responses using proprietary university content. Implemented an \textbf{output validation layer with selective retry} to ensure factual accuracy and response reliability.
+
+    % \item \textbf{LLM-powered Quiz Generation System:} Generated \textbf{~1,400 quizzes across 29 MBA and BBA courses} using proprietary academic material via an automated pipeline, completing large-scale generation in \textbf{~3 hours runtime within a 5-day delivery timeline}. Incorporated \textbf{validation and selective retry mechanisms} to maintain question quality and consistency.
+    
+    % \item \textbf{AI Transcript Normalization System:} Developed a system to align noisy ASR outputs from educational videos with official learning content, correcting factual inaccuracies and improving linguistic quality. Added an \textbf{output validation layer with selective retry} to handle alignment and correction failures.
+    
+    % \item \textbf{LLM-based Support Ticket Classification:} Classified \textbf{23,000+ support tickets} into structured categories and subcategories to improve routing accuracy and resolution efficiency.
+    
+    % \item \textbf{ELM (E-Learning Material) EPUB Generation System:} Built a system to create structured EPUB books with images, mathematical content, and iterative feedback loops with faculty to continuously improve content quality.
+    % \end{itemize}
+    
+\item \textbf{AI Training Contributor - Freelance (Remote)}\\
+    Outlier, San Francisco, US\\
+    June 2025 – Aug 2025\\
+    Generating high-quality training data for AI models across platforms like Cursor (AI-powered code editor) and more. Tasks include writing rubrics, adversarial prompts to test model limits, and ideal responses to improve code generation, reasoning, and alignment.
+    
+\item \textbf{Intelligence Engineer -  Part Time (Remote)}\\
+    Mercor.ai, San Francisco, US\\
+    Sept 2024 - Oct 2024\\
+    Enhanced an AI-based interview platform by refining candidate evaluation processes, conducting a comparative \\analysis of candidate profiles, and extracting critical insights from resumes to improve the accuracy and efficiency of automated talent assessments.
+    
+    \item \textbf{Data Analytics - Intern (Remote)}\\
+    Cloud Counselage Pvt. Ltd., Mumbai, India\\
+    Aug 2023 - Nov 2023 (\href{https://drive.google.com/file/d/1dMKQqUF4qsmPFHixTnNGebqno8mwt2jL/view}{Best Intern Award})\\
+    Addressed 18 business questions regarding intern data by building interactive Power BI dashboards, thereby improving intern performance analysis.
+
+    % \item \textbf{Data Science Intern}\\
+    % Oasis Infobyte, New Delhi\\
+    % June 2023 - July 2023\\
+    % Completed projects on sales prediction, unemployment analysis, and iris flower classification.
+    
+    % \item \textbf{Data Science Intern}\\
+    % CodeClause, Pune\\
+    % June 2023 - July 2023\\
+    % Executed projects on churn prediction and market basket analysis.
+
+\end{itemize}
+
+\section*{Education}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bachelor of Engineering (B.E.) - Electronics and Telecommunication Engineering}\\
+    (Honors in Data Science)\\
+    Grad. July-2024 (CGPA: 8.99)\\
+    St. Francis Institute of Technology, Mumbai University
+        
+    \item \textbf{Higher Secondary School Certificate (Class 12th)}\\
+    Grad. Feb-2020 (75.08\%) \\
+    St. Rocks College of Commerce and Science, Maharashtra State Board
+
+    \item \textbf{Secondary School Certificate (SSC) (Class 10th)}\\
+    Grad. Mar-2018 (80.6\%)\\
+    St. Francis D'Assisi High School, Maharashtra State Board
+\end{itemize}
+
+\section*{Projects}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{\href{}{ELM (E-Learning Material) EPUB Generation System}}\\
+    \textbf{(Jan 26)}\\
+    Built a system to create EPUB-based learning materials with images and mathematical content, incorporating feedback loops with faculty to iteratively improve content quality.\\
+    \textbf{Skills Used:} LLMs, Content Generation, EPUB
+
+    \item \textbf{\href{}{Transcript Normalization for Educational Videos}}\\
+    \textbf{(Nov 25)}\\
+    Built an AI-based transcript normalization pipeline that aligns noisy ASR-generated transcripts with authoritative learning content to correct factual, semantic, and linguistic errors.\\
+    \textbf{Skills Used:} NLP, LLMs, ASR Post-processing, Text Alignment, Information Retrieval
+
+    \item \textbf{\href{}{LLM-Based Support Ticket Classification}}\\
+    \textbf{(Oct 25)}\\
+    Designed an LLM-driven classification system to categorize \textbf{23,000+ support tickets} into structured categories and subcategories, improving downstream ticket routing and resolution efficiency.\\
+    \textbf{Skills Used:} LLMs, Prompt Engineering, Text Classification, NLP, Data Processing
+
+    \item \textbf{\href{}{LLM-Based Academic Quiz Generator}}\\
+    \textbf{(Sept 25)}\\
+    Built an LLM-powered quiz generation system using proprietary university learning content, generating \textbf{~1,400 quizzes across 29 MBA and BBA courses} through an automated pipeline executed in \textbf{~3 hours}.\\
+    \textbf{Skills Used:} Python, LLMs, Prompt Engineering, Content Structuring, Automation
+
+    \item \textbf{\href{}{RAG-Based Academic Query System (PMQ – Post My Query)}}\\
+    \textbf{(July 25)}\\
+    Developed a retrieval-augmented generation system over academic content, enabling students to post course-specific queries, with faculty-assist and student-direct answering modes deployed in a multi-tenant setup across universities.\\
+    \textbf{Skills Used:} RAG, LLMs, Embeddings, Vector Databases, LangChain, NLP
+
+    \item \textbf{\href{}{LLM Failure Testing – Claude Sonnet (Cursor IDE) (June 25)}}\\ 
+    Crafted adversarial prompts to trigger failures in Claude Sonnet 3.7 within the Cursor IDE, provided correct outputs, and compared responses with Grok and Gemini for benchmarking. \\
+    \textbf{Skills Used:} Python, Prompt Engineering, LLM Evaluation, Model Benchmarking, Error Analysis, Cursor IDE
+    
+    \item \textbf{\href{}{LLM Log Analysis \& Issue Categorization\\ (June 25)}}\\  
+    Analyzed logs of LLM test outputs to identify and categorize model failures based on reasoning, formatting, or content errors. Drafted problem statements describing each failure and defined requirements for the expected correct response. \\
+    \textbf{Skills Used:} LLM Evaluation, Log Analysis, Error Categorization, Requirement Specification, NLP
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Hiring_Assistant_Chatbot}{Hiring Assistant Chatbot (May 25)}}\\ 
+    Developed an LLM-powered chatbot for automated candidate screening using Falcon-7B and BART, with structured interview logs in JSON format. \\
+    \textbf{Skills Used:} Python, Streamlit, Hugging Face, dotenv, requests, pandas, JSON, Regex, Session State Management
+
+    \item \textbf{\href{https://github.com/IbrahimParkar/Booking_Analytics_and_QA_System}{Booking Analytics \& QA System (Apr 25)}}\\
+    Modeled a Flask app for hotel booking analysis with LLM-powered Q\&A using RAG, integrating Mistral-7B and FAISS for querying. \\
+    \textbf{Skills Used:} Data Preprocessing, EDA, API Development, SQLite, Pandas, FAISS, Flask, Hugging Face, RAG
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Chat_with_PDFs}{Chat with Multiple PDFs (Mar 25)}}\\
+    Developed a Streamlit app that enables users to interact with multiple PDF documents via natural language queries. Implemented text extraction, chunking, vector embedding (FAISS), and a conversational AI chain using Hugging Face models for multi-turn dialogue. \\
+    \textbf{Skills Used:} Python, Streamlit, PyPDF2, LangChain, FAISS, Hugging Face Hub, NLP, Vector Embeddings, Conversational Retrieval Chain
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Web_Scraping}{Web Scraping Project (Feb 25)}}\\
+    Scraped data from Wikipedia on the largest U.S. companies by revenue using BeautifulSoup, extracting company names, industries, revenue, and locations into a structured CSV. \\
+    \textbf{Skills Used:} Python, Requests, BeautifulSoup, Pandas, Web Scraping, Data Cleaning
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Data_Cleaning_and_EDA_Using_SQL}{Data Cleaning and EDA using SQL (Feb 25)}}\\
+    Performed data wrangling and EDA on a layoffs dataset, addressing inconsistencies, handling NULL values, and standardizing formats. Conducted in-depth SQL analysis to uncover trends and generate actionable insights. \\    
+    \textbf{Skills Used:} SQL, Data Cleaning, EDA, MySQL, Data Analysis
+
+    \item \textbf{\href{}{Interview Platform Enhancement (Aug 24 - Oct 24)}}\\
+    Improved the candidate evaluation pipeline of an AI-driven interview platform by refining scoring logic across domain expertise, query relevance, and overall fit. Conducted comparative analysis of candidate profiles to identify inconsistencies and enhance evaluation accuracy and reliability. \\    
+    \textbf{Skills Used:} NLP, Resume Parsing, Candidate Profiling, Data Analysis, AI Evaluation
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Personalized_Health_Recommendation_System}{Personalized Health Recommendation System \\(Jun 23 - Jun 24)}}\\ (BE Project – Team Lead) \\
+    Built a Flask-based health recommender system using ML models to predict conditions like arrhythmia, apnea, and stroke with over 85\% accuracy. \\
+    \textbf{Skills Used:} Python, Flask, Machine Learning, Random Forest, SVM, Decision Trees, Model Evaluation, Data Preprocessing
+
+    \item \textbf{\href{https://github.com/IbrahimParkar/Extractive_Text_Summarization_using_NLP}{Extractive Text Summarization using NLP \\(Jan 24 - Jun 24)}}\\
+    Designed a web application for extractive text summarization using a word frequency–based algorithm, leveraging SpaCy for efficient text processing, concise summaries, and statistical insights. \\
+    \textbf{Skills Used:} Python, Flask, NLP, SpaCy, Text Summarization, Word Frequency Analysis, Web Development
+
+    \item \textbf{\href{https://github.com/IbrahimParkar/Intern_Success_Nexus}{Intern Success Nexus (Aug 23 - Nov 23)}}\\
+    Analyzed 2000+ students to derive insights. Utilized Power BI for visualizations and presented the findings through comprehensive documentation and a detailed video. \\
+    \textbf{Skills Used:} Power BI, Data Cleaning, EDA, Data Visualization, SQL
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/IBM_Data_Analyst/tree/main/IBM_Data_Analyst_Capstone_Project}{IBM Data Analyst Capstone Project \\ (Apr 22 - Nov 22)}}\\
+    Collected and analyzed data from job postings and surveys to uncover trends in the IT industry. Used Python for data wrangling and statistical analysis, and built dashboards using IBM Cognos Analytics to deliver insights. \\
+    \textbf{Skills Used:} Data Collection, Data Wrangling, EDA, Python, IBM Cognos Analytics, Data Visualization, Dashboarding
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Unemployment_Analysis}{Unemployment Analysis (July 22)}}\\
+    Analyzed the impact of COVID-19 on India's job market by performing data preprocessing and EDA. Visualized unemployment trends across regions and compared pre- and post-lockdown effects, identifying the most affected states. \\    
+    \textbf{Skills Used:} Python, Pandas, Plotly Express, Matplotlib, Seaborn, Data Cleaning, EDA, Statistical Analysis, Visualization
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Churn_Prediction_in_Telecom_Industry}{Churn Prediction in Telecom Industry (July 22)}}\\
+    Engineered a churn prediction model on telecom data; performed data cleaning, EDA, and trained models, with Gradient Boosting achieving top performance. \\
+    \textbf{Skills Used:} Python, Scikit-learn, EDA, ML, Hyperparameter Tuning, Feature Engineering, Model Evaluation
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Market_Basket_Optimisation}{Market Basket Optimization (Jun 22)}}\\
+    Conducted market basket analysis by cleaning and preprocessing transactional data to extract frequent itemsets and generate association rules. Filtered rules using support, confidence, and lift to derive meaningful insights into customer purchasing patterns and item associations. \\
+    \textbf{Skills Used:} Python, Apyori, mlxtend, Data Preprocessing, Association Rules, EDA, Support, Confidence, Lift
+    
+    \item \textbf{\href{https://github.com/IbrahimParkar/Sales_Prediction}{Sales Prediction (Jun 22)}}\\
+    Implemented a machine learning model to forecast sales from advertising spend. Performed data wrangling, trained multiple algorithms, and evaluated performance. \\
+    \textbf{Skills Used:} Python, Machine Learning, Linear Regression, Extra Trees Regressor, Data Preprocessing, Model Evaluation, R-squared, MAE, RMSE
+
+
+\end{itemize}
+
+\section*{Skills}
+\textbf{Programming :} Python, SQL \\
+\textbf{AI/ML :} Machine Learning, Deep Learning, Natural Language Processing (NLP), Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Prompt Engineering, Feature Engineering, Model Evaluation \\
+\textbf{Frameworks \& Libraries :} Flask, Streamlit, LangChain, Scikit-learn, TensorFlow, Pandas, NumPy, Hugging Face Transformers \\
+\textbf{Cloud, DevOps \& APIs :} AWS, Docker, REST APIs \\
+\textbf{Databases \& Storage :} MySQL, SQLite, FAISS, Qdrant \\
+\textbf{Analytics \& Visualization :} Power BI, Tableau, Excel, Web Scraping, Data Wrangling, Exploratory Data Analysis (EDA) \\
+\textbf{Tools :} Git, GitHub, Jupyter Notebook, VS Code, Cursor, PyCharm
+
+\section*{Languages}
+English (Full Professional Proficiency) \\
+Hindi (Native or Bilingual Proficiency)
+
+\section*{Coursework}
+\begin{itemize}[leftmargin=*]
+    \item \href{https://coursera.org/share/7c68eefc04639a7859c21f74a42f01b2}{IBM Data Analyst Professional Certificate (Coursera) \\ (Aug 22 - Nov 22)} \\
+    Completed a series of 9 courses covering core data analytics principles. Gained hands-on experience with Excel, SQL, Python, and Cognos Analytics.
+    
+    \item \href{https://drive.google.com/file/d/1A8_AMobtkSivEB8xcgwULx3Zu5eu1IGm/view}{Data Science (Acmegrade) (Jan 23 - Feb 23)}\\
+    A brief 1-month course on the fundamentals of data science.
+    
+    \item \href{https://www.coursera.org/account/accomplishments/specialization/certificate/7C9NZF79N95E}{Machine Learning Specialization (Coursera)\\ (Oct 23 - Dec 23)}\\
+    Gained expertise in supervised and unsupervised learning, recommender systems, and reinforcement learning. 
+
+    \item \href{https://www.linkedin.com/learning/certificates/cbcfcbbf73ae350b7e2c126d8466c3f908c3e04a507b8b618336a60ebea3ab00}{What Is Generative AI? (LinkedIn Learning) (May 24)}\\
+    Learned about the fundamentals of generative AI, including its mechanisms, content creation techniques, model types, future trends, and ethical considerations. 
+
+    \item \href{https://www.linkedin.com/learning/certificates/0548d0e881d56d89d4fe36395bfa994a1f125be4846b30957170e1d2a05eb0f6}{Python Essential Training (LinkedIn Learning) (Jun 24)}
+    Completed this course on LinkedIn Learning, covering core Python concepts including data structures, control flow, functions, and object-oriented programming. 
+    
+    \item \href{https://github.com/IbrahimParkar/Python-100-days-of-code}{Python 100 days of code by Code with Harry (YouTube) (Oct 25 - Jan 25)}\\
+    Completed the 100 Days of Python by Code with Harry. 
+    
+\end{itemize}
+
+\section*{Awards \& Recognitions}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Best Intern Award} - Cloud Counselage Pvt. Ltd.
+\end{itemize}
+
+\section*{Job Simulations}
+\begin{itemize}[leftmargin=*]
+    \item \href{https://drive.google.com/file/d/1S3T-p2exXNXaNSFZpdBsmN0yfDdZ12jA/view}{Data Analytics Consulting Virtual Internship (Jun 23)}
+    \item \href{https://drive.google.com/file/d/1DT9PhZ5fNscLeGKOZAww_uU6l0ah8jdh/view}{Data Analytics and Visualization Virtual Experience \\(Jun 23)}
+    \item \href{https://drive.google.com/file/d/1G13JT6qTP9-cEMzOUBGjXbCbYrOQdiBy/view}{Power BI Virtual Case Experience (Jun 23)}
+    \item \href{https://drive.google.com/file/d/1WRGarZTfXmaKP7_DITYcpAMTdUs3AW5L/view}{Data Visualization: Empowering Business with Effective Insights (May 23)}
+\end{itemize}
+
+\section*{Publications}
+\begin{itemize}[leftmargin=*]
+    \item \href{https://www.ijraset.com/research-paper/personalized-health-recommendation-system-using-machine-learning}{Personalized Health Recommendation System using Machine Learning}
+    \item \href{https://www.ijnrd.org/viewpaperforall?paper=IJNRD2405062}{A Comprehensive Literature Review for Exploring Machine Learning Approaches for Detection of Health Disorders}
+
+\end{itemize}
+
+\section*{Volunteering}
+\begin{itemize}[leftmargin=*]
+    \item Publicity Executive (ISTE SFIT)
+    \item NSS Volunteer (NSS SFIT)
+\end{itemize}
+
+\end{multicols}
+
+\end{document}
